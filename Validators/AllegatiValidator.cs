@@ -23,8 +23,8 @@ namespace FatturaElettronica.Validators
                 .Length(1, 100)
                 .Latin1SupplementValidator()
                 .When(x => !string.IsNullOrEmpty(x.DescrizioneAttachment));
-            RuleFor(x => x.Attachment)
-                .NotEmpty();
+            //RuleFor(x => x.Attachment)
+            //    .NotEmpty();
         }
     }
 }
