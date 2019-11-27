@@ -14,12 +14,14 @@ Collaboratori
 
 - Claudio Lepri
 - Diego Martelli
+- Emanuele Curati
 - Fabio Calvigioni
 - Federico Dipuma
 - Gaetano Pizzol
 - Marco Tessitore
 - Massimo Linossi
 - Michael Mairegger
+- ZephirPFS47
 - gminutillo
 
 [NI]: https://nicolaiarocci.com

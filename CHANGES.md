@@ -4,7 +4,45 @@ Changelog
 In Development
 --------------
 
-- hic sunt leones
+- Fix: errore nell'ordine dei campi CedentePrestatore in fattura semplificata ([#220][220])
+- Test suite aggiornata a NetCore 3.0
+- Fix: refuso in TOC.md ([#221][221])
+- Fix: Aggiunto il Kosovo alla tabella IdPaese ([#214][214])
+- Tutorial: Aggiunto `IgnoreProcessingInstructions` a `XmlReaderSettings` per evitare crash quando
+  nodi "processing instructions" (es: `xml-stylesheet`) sono presenti nel XML. ([#209][209])
+
+[220]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/220
+[221]: https://github.com/FatturaElettronica/FatturaElettronica.NET/pull/221
+[214]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/214
+[209]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/209
+
+v2.0.6
+------
+
+Released on May 24, 2019
+
+- Fix: FatturaSemplificata convalidata con TipoDocumento valido per Ordinaria ([#205][205])
+- Fix: FatturaSemplificata convalidata con Natura valida per Ordinaria ([#205][205])
+- Fix: Validazione AltriDatiIdentificativi in FatturaSemplificata ([#203][203])
+- Fix: UnitaMisura vuota deve sollevare errore di validazione ([#204][204])
+- Fix: DatiFatturaRettificata.DataFR dovrebe essere nullabile ([#200][200])
+- Fix: CausalePagamento: ZO e M2 sostituiti rispettivamente da Z e M ([#191][191c])
+
+[205]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/205
+[203]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/203
+[204]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/204
+[200]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/200
+[191c]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/191#issuecomment-493911791
+
+v2.0.5
+------
+
+Released on April 23, 2019
+
+- Fix: validatore CausalePagamento da aggiornare per unico 2019 ([#191][191])
+- Test refactoring and cleanup.
+
+[191]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/191
 
 v2.0.4
 ------
@@ -13,7 +51,7 @@ Released on April 16, 2019
 
 - Fix: falso errore 00418 "Data antecedente a data fattura rettificata" ([#190][190])
 - Aggiunto badge NuGet al README ([#188][188])
-- `LatinBaseValidator` ora indica quali sono i caratteri non accettati ([#185][185]).
+- `LatinBaseValidator` ora indica quali sono i caratteri non accettati ([#185][185])
 
 [190]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/190
 [188]: https://github.com/FatturaElettronica/FatturaElettronica.NET/issues/188
